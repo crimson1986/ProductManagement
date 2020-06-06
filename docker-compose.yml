@@ -23,7 +23,7 @@ x-shared_environment: &shared_environment
 
 services:
   app:
-    image: Vapor_New:latest
+    image: ProductManagement:latest
     build:
       context: .
     environment:
